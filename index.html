@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Fitness</title>
+    <link rel="icon" href="img/logo.png">
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg2.png');
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 70px;
+        filter: invert(100%);
+        position: relative;
+        left: 17px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1em;
+        position: relative;
+        bottom: 14px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: 10px auto;
+        padding: 0px 29px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 13px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(188, 188, 188);
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(43, 43, 43);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 796px;
+        padding: 18px 36px;
+        width: 38%;
+        border-radius: 18px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 80%;
+        padding: 4px;
+        margin: 11px auto;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 82%;
+        margin: 21px auto;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Harry Fitness</div>
+        </div>
+
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calc</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <a href="##"><button class="btn">Call Us Now</button></a>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Dehli Now!</h1>
+        <form action="">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Phone No.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
